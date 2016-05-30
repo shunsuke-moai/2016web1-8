@@ -1,1 +1,112 @@
+@charset "utf-8";
+
+body{
+  background-color:mediumaquamarine;
+}
+
+.breadcrumbs li{
+  display:inline;
+  list-style-type:none;
+}
+
+.breadcrumbs li:before{
+  content:" > ";
+}
+
+.breadcrumbs li:first-child:before{
+  content:"";
+}
+
+#gnav a{
+  display:block;
+  padding:10px 0;
+  text-align:center;
+  background:darkgreen;
+  color:white;
+}
+
+#gnav a:hover{
+  background:lightgreen;
+  color:black;
+}
+
+#gnav a.selected{
+  background:white;
+  color:darkgreen;
+  font-weight:bold;
+}
+
+#gnav ul{
+  overflow:hidden;
+}
+
+#gnav li{
+  float:left;
+  width:156px;
+  border-right:white 1px solid;
+  list-style-type:none;
+}
+
+#logo ul{
+  overflow:hidden;
+}
+
+#logo li{
+  display:table-cell;
+  vertical-align:middle;
+  float:left;
+  list-style-type:none;
+}
+
+#logo img{
+  width:100px;
+}
+
+#gnav b{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:white;
+}
+
+#gnav b:after{
+  clear:both;
+}
+
+#gnav b.img{
+  display:table-cell;
+  vertical-align:middle;
+  background:url(../img/scc_sprite.png) no-repeat;
+  width:55px;
+  height:46px;
+}
+
+#gnav div.text{
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px 5px;
+}
+
+div.img#home{backgound-position:0 0px;}
+div.img#content1{backgound-position:0 -46px;}
+div.img#content2{backgound-position:0 -92px;}
+div.img#help{backgound-position:0 -138px;}
+div.img#faq{backgound-position:0 -184px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
